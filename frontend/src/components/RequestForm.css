@@ -1,0 +1,86 @@
+/* Container for the entire page */
+.request-form-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #e0f7fa, #80d6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  /* Card that holds the form content */
+  .request-form-card {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Title of the request form */
+  .request-form-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #3b82f6;
+  }
+  
+  /* Group for input fields (for spacing) */
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  /* Label for the input fields */
+  .input-label {
+    font-weight: 500;
+    color: #4b5563;
+  }
+  
+  /* Common styling for input fields */
+  .input-field {
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Focus effect on input fields */
+  .input-field:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+  }
+  
+  /* Textarea specific styles */
+  .textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  /* Button styling */
+  .submit-btn {
+    padding: 0.75rem;
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2563eb;
+  }
+  
+  .submit-btn:focus {
+    outline: none;
+  }
+  
